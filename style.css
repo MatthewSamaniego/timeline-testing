@@ -102,8 +102,8 @@ html {
 }
 
 body {
-    background-color: hsl(0, 0%, 100%);
-    background-color: var(--color-bg, black)
+    background-color: transparent;
+    background-color: var(--color-bg, transparent)
 }
 
 article,
@@ -182,7 +182,7 @@ svg {
 [data-theme] {
     background-color: hsl(0, 0%, 100%);
     background-color: var(--color-bg, #fff);
-    color: hsl(240, 4%, 20%);
+    color: hsl(0, 0%, 100%);
     color: var(--color-contrast-high, #313135)
 }
 
@@ -1121,15 +1121,15 @@ body {
     font-size: var(--text-base-size, 1em);
     font-family: 'Fira Sans', sans-serif;
     font-family: var(--font-primary, sans-serif);
-    color: hsl(240, 4%, 20%);
-    color: var(--color-contrast-high, #313135)
+    color: hsl(0, 0%, 100%);
+    color: var(--color-contrast-high, #ffffff)
 }
 
 h1,
 h2,
 h3,
 h4 {
-    color: hsl(240, 8%, 12%);
+    color: hsl(0, 0%, 100%);
     color: var(--color-contrast-higher, #1c1c21);
     line-height: 1.2;
     line-height: var(--heading-line-height, 1.2)
@@ -1513,23 +1513,23 @@ u,
 
 .form-control::-webkit-input-placeholder {
     color: hsl(240, 1%, 48%);
-    color: var(--color-contrast-medium, #79797c)
+    color: var(--color-contrast-medium, #ffffff)
 }
 
 .form-control::-moz-placeholder {
     opacity: 1;
     color: hsl(240, 1%, 48%);
-    color: var(--color-contrast-medium, #79797c)
+    color: var(--color-contrast-medium, #ffffff)
 }
 
 .form-control:-ms-input-placeholder {
     color: hsl(240, 1%, 48%);
-    color: var(--color-contrast-medium, #79797c)
+    color: var(--color-contrast-medium, #ffffff)
 }
 
 .form-control:-moz-placeholder {
     color: hsl(240, 1%, 48%);
-    color: var(--color-contrast-medium, #79797c)
+    color: var(--color-contrast-medium, #ffffff)
 }
 
 .form-control[disabled],
@@ -3290,8 +3290,8 @@ u,
 }
 
 .color-contrast-medium {
-    color: hsl(240, 1%, 48%);
-    color: var(--color-contrast-medium, #79797c)
+    color: hsl(0, 0%, 100%);
+    color: var(--color-contrast-medium, #ffffff)
 }
 
 .color-contrast-high {
@@ -3485,7 +3485,7 @@ u,
     --color-contrast-low-h: 240;
     --color-contrast-low-s: 1%;
     --color-contrast-low-l: 83%;
-    --color-contrast-medium: hsl(240, 1%, 48%);
+    --color-contrast-medium: hsl(0, 0%, 100%);
     --color-contrast-medium-h: 240;
     --color-contrast-medium-s: 1%;
     --color-contrast-medium-l: 48%;
@@ -3652,10 +3652,10 @@ mark {
 }
 
 :root {
-    --cd-color-1: hsl(0, 0%, 22%);
+    --cd-color-1: hsl(0, 0%, 100%);
     --cd-color-1-h: 0;
     --cd-color-1-s: 0%;
-    --cd-color-1-l: 22%;
+    --cd-color-1-l: 100%;
     --cd-color-2: hsl(57, 92%, 60%);
     --cd-color-2-h: 74;
     --cd-color-2-s: 93%;
@@ -3760,7 +3760,7 @@ body {
     font-size: 0.8em;
     padding-bottom: 0.75em;
     padding-bottom: var(--space-sm);
-    color: hsl(0, 0%, 22%);
+    color: hsl(0, 0%, 100%);
     color: var(--cd-color-1);
     -webkit-user-select: none;
     -moz-user-select: none;
