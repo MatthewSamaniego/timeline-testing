@@ -3660,7 +3660,7 @@ mark {
     --cd-color-2-h: 74;
     --cd-color-2-s: 93%;
     --cd-color-2-l: 32%;
-    --cd-color-3: hsl(0, 0%, 97%);
+    --cd-color-3: transparent;
     --cd-color-3-h: 0;
     --cd-color-3-s: 0%;
     --cd-color-3-l: 97%;
@@ -3671,7 +3671,7 @@ mark {
 body {
     color: hsl(0, 0%, 22%);
     color: var(--cd-color-1);
-    background-color: hsl(0, 0%, 97%);
+    background-color: hsl(0, 100%, 58%);
     background-color: var(--cd-color-3)
 }
 
